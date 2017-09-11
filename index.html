@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>TicTacToe</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="TicTacToe.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.1.1.js"
+  	integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  	crossorigin="anonymous"></script>
+
+  	<script type="text/javascript" src = "TicTacToe.js"></script>
+</head>
+
+<body>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-xs-2"></div>
+			<div class = "col-xs-8">
+				<h1 class = "text-center"><strong>Tic Tac Toe</strong></h1>
+			</div>
+			<div class = "col-xs-2"></div>
+		</div>
+		<div class = "row text-center">
+			<div class = "col-xs-3"></div>
+			<div class = "col-xs-6">
+				<h2><span class = "option x x-opt"><i class="fa fa-times" aria-hidden="true"></i></span> or <span class = "option o o-opt"><i class="fa fa-circle-o" aria-hidden="true"></i></span></h2>
+			</div>
+			<div class = "col-xs-3"></div>
+		</div>
+		<div class = "row text-center">
+			<div class = "col-xs-4 col-lg-5"><span class = "start player-start"><i class="fa fa-user fa-bot" aria-hidden="true"></i><p id = "player-p">I will start</p></span></div>
+			<div class = "col-xs-4 col-lg-2" id = "starter"><h3>Who Starts?</h3></div>
+			<div class = "col-xs-4 col-lg-5"><span class = "start comp-start"><i class="fa fa-desktop fa-bot" aria-hidden="true"></i><p id = "comp-p">Computer starts</p></span></div>
+		</div>
+		<div class = "row">
+			<div class = "col-xs-4"></div>
+			<div class = "col-xs-4 text-center">
+				<p class = "score">Player:<span class = "player-score"> 0</span> Computer:<span class = "comp-score"> 0</span> Draw:<span class = "draw-score"> 0</span></p>
+			</div>
+			<div class = "col-xs-4"></div>
+		</div>
+		<div class = "row">
+			<div class = "wrapper">
+				<div class = "text-center game-end display">
+					<h1 class = "message"></h1>
+					<h5 class = "replay btn">Play Again</h5>
+				</div>
+				<table class = "text-center">
+					<tbody>
+						<tr>
+							<td id = "0"></td>
+							<td id = "1" class = "row1"></td>
+							<td id = "2"></td>
+						</tr>						
+						<tr>
+							<td id = "3" class = "row2"></td>
+							<td id = "4" class = "row1 row2"></td>
+							<td id = "5" class = "row2"></td>
+						</tr>						
+						<tr>
+							<td id = "6"></td>
+							<td id = "7"class = "row1"></td>
+							<td id = "8"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class = "text-center">
+			<p>Coded by <a href="#">Otari Kobiashvili</a></p>
+		</div>
+	</div>
+</body>
+</html>

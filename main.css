@@ -1,0 +1,98 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #F0F8FF;
+}
+h1{
+	font-size: 3em;
+}
+.score{
+	margin-bottom: 0px;
+}
+.display {
+	display: none;
+}
+.message {
+	position: relative;
+	top:130px;
+	margin: 0 auto;
+}
+.replay{
+	position: relative;
+	top: 150px;
+	border: 1px solid black;
+	background-color: white;
+}
+.game-end {
+	height: 330px;
+	background-color: rgb(49,160,210);
+	border-radius: 4px;
+	box-shadow: 1px 3px 6px 3px rgba(0, 0, 0, 0.4);
+}
+.x {
+	color: rgb(246,49,47);
+	cursor: pointer;
+}
+.o {
+	color: rgb(46,196,103);
+	cursor: pointer;
+}
+.x-opt{
+	font-size: 1.55em;
+}
+.o-opt{
+	font-size: 1.45em;
+}
+.x-hov{
+	font-size: 3.25em;
+	text-shadow : 1px 1.2px black;
+}
+.o-hov{
+	font-size: 3em;
+	text-shadow : 1px 1.2px black;
+}
+.x-opt:hover {
+	color: rgba(246,49,47,.5);
+	transition: .1s;
+	border-bottom: 3px solid rgba(49,160,210,.5);
+}
+.o-opt:hover {
+	color: rgba(46,196,103,.5);
+	transition: .1s;
+	border-bottom: 3px solid rgba(49,160,210,.5);
+}
+.fa-bot {
+	font-size: 3.25em;
+}
+.start {
+	cursor: pointer;
+}
+.start:hover {
+	color: rgba(38,38,38,.5);
+	transition: .1s;
+}
+.wrapper {
+	margin: 20px auto;
+	margin-bottom: 50px;
+	width: 330px;
+	height: 334px;
+	border-radius: 10px;
+}
+table{
+	margin: 0 auto;
+	border-radius: 6px;
+	background-color: rgba(49,160,210,.9);
+	box-shadow: 1px 3px 6px 3px rgba(0, 0, 0, 0.4);
+}
+td {
+	width: 110px;
+	height: 110px;
+	cursor: pointer;
+}
+.row1{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.row2 {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
